@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 ul {
@@ -35,6 +35,8 @@ ul {
 .amazing {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -66,6 +68,7 @@ img {
 .images {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 .image-1, .image-2, .image-3, .image-4 {
@@ -73,4 +76,37 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.quote {
+    background-color: rgb(255, 0, 0);
+    color: #f9faf8;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    padding: 24px;
+}
+
+.container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 12px;
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #EFE7EB;
+    justify-content: center;
+    align-items: center;
 }
